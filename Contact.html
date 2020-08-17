@@ -6,53 +6,51 @@
     <title></title>
   </head>
   <body>
-    <h1  class="contact">Contactez moi</h1>
-    <div class="card">
-      <div class="coordonnees">
-        <h2 class="Vos-coordonnees">Vos coordonnees</h2>
-        <form class="" action="Contact.html" method="post">
-          <label for="">Je suis :</label>
-          <select class="select">
-                <option selected>choisir</option>
-                <option value="1">Entrepreuneur</option>
-                <option value="2">Investisseur</option>
-            </select><br/>
-          <input type="text" name="" value="" id="name" placeholder="Votre nom"><br/>
-          <input type="text" name="" value="" id="name" placeholder="Votre prenom"><br/>
-          <input type="text" name="" value="" id="name" placeholder="Votre email"><br/>
+    <header>
 
-        </form>
+    </header>
+    <main>
+      <h1  class="contact">Contactez moi</h1>
+      <div class="card">
 
-
-      </div>
-      <div class="coordonnees">
-        <h2 class="Vos-coordonnees">Votre message</h2>
-        <form class="" action="Contact.html" method="post">
-          <label for="">Sujet :</label>
-          <select class="select">
-                <option selected>choisir</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select><br/>
-
-            <label class="" for="message">Votre message:</label><br />
-            <textarea id="message" class="input" name="message"  cols="80" rows="6"></textarea><br />
+          <form class="" action="Contact.html" method="post">
+            <legend class="Vos-coordonnees">Vos coordonnees</legend>
+            <fieldset class="coordonnees">
+              <label for="">Je suis :</label>
+              <select class="select">
+                    <option selected>choisir</option>
+                    <option value="1">Entrepreuneur</option>
+                    <option value="2">Investisseur</option>
+                </select><br/>
+              <input type="text" name="" value="" id="name" placeholder="Votre nom">
+              <input type="text" name="" value="" id="name" placeholder="Votre prenom">
+              <input type="text" name="" value="" id="name" placeholder="Votre email">
+            </fieldset>
 
 
+           <legend class="Vos-coordonnees">Votre message</legend>
+           <fieldset class="coordonnees">
+             <label for="">Sujet :</label>
+             <select class="select">
+                   <option selected>choisir</option>
+                   <option value="1">One</option>
+                   <option value="2">Two</option>
+                   <option value="3">Three</option>
+               </select><br/>
 
-        </form>
+               <label class="" for="message">Votre message:</label>
+               <textarea id="message" class="input" name="message"  cols="80" rows="6"></textarea>
+           </fieldset>
 
+              <div class="bouton">
+                <button type="button" name="button" class="btn">Envoyer</button>
+              </div>
+          </form>
+       </div>
+    </main>
+    <footer>
 
-      </div>
-      <div class="bouton">
-        <button type="button" name="button" class="btn">Envoyer</button>
-      </div>
-
-
-
-
-    </div>
+    </footer>
 
   </body>
 </html>
